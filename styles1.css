@@ -1,0 +1,778 @@
+.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navigation {
+    position: absolute;
+    top: 20px;
+    left:205px;
+    font-size: 15px;
+    
+}
+.navigation ul {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li a {
+    color: white;
+    
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right:249px;
+    font-size: 20px;
+
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li a {
+    color: white;
+    padding: 50px 20px;
+}
+.text-overlay {
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    
+    color: white; 
+   
+    font-size: 100px;
+    text-align: center;
+}
+
+.text1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 50px;
+    color: white; 
+    text-align: center;
+}
+
+.search-container {
+    
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 700px;
+    height: 3rem; 
+    border-radius: 5px;
+    background-color: white;
+    top:35%;
+    left:22%;
+    
+
+}
+
+.pin{
+    position: absolute;
+    left: 0;
+}
+
+.location-icon {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+
+
+.search-image{
+    position: absolute;
+    top:17%;
+    left:34%;
+    z-index: 1 ;
+
+}
+.search-input {
+    position: absolute;
+    width: 60%;
+    height: 3rem;
+    font-size: 16px;
+    z-index: 1;
+    right: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+
+
+.place {
+    position: absolute;
+    top: 30%;
+    left:10%;
+    z-index: 1;
+}
+
+.place select {
+    position: absolute;
+    left: 0;
+    border: none;
+    
+}
+
+
+.online {
+    position: relative;
+    border-radius: 5px;  
+    top:130px;
+    left:160px;
+
+}
+
+.order-section {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    width: 550px;
+    background-color: white;
+    text-align: left;
+    top:20px;
+    left: 160px;
+}
+
+a.custom {
+    display: inline-block;  
+    height: 270px;
+    width: 550px; 
+    top:404px;
+    left:160px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.zoom-container {
+    display:inline-block;
+    transition: transform 0.3s ease;
+}
+
+.zoom-container:hover {
+    transform: scale(1.05);
+}
+
+
+.dine {
+    position: relative;
+    border-radius: 5px;  
+    top:130px;
+    left:210px;
+
+}
+.dinein-section {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.427);
+    width: 550px;
+    background-color: white;
+    text-align: left;
+    top:20px;
+    left:210px;
+}
+
+a.custom1 {
+    display: inline-block;  
+    height: 320px;
+    width: 550px; 
+    top:413px;
+    left:210px;
+    transition: background-color 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.zoom {
+    display:inline-block;
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+
+.collections h1 {
+    font-size: 36px; 
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: -10px;
+}
+
+.collections .content {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.collections p {
+    font-size: 24px; 
+    margin-right: 20px; 
+}
+
+.triangle-link {
+    font-size: 20px; 
+    color: #FF7E8B; 
+    text-decoration: none;
+}
+
+
+.Id1 {
+    position: relative;
+    left: 150px;
+}
+
+a.custom2 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id1 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.cust{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+
+.Id2 {
+    position: relative;
+    left: 480px;
+    top: -305px;
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id2 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+.Id3 {
+    position: relative;
+    left: 800px;
+    top: -608px;
+
+    
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id3 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+
+.Id4 {
+    position: relative;
+    left: 1120px;
+    top: -910px;
+
+}
+
+a.custom3 {
+    display: inline-block;  
+    height: 300px;
+    width: 300px; 
+    position: absolute;
+}
+
+.Id4 h2 {
+    position: absolute;
+    color: white;  
+    top: 220px;
+    left: 10px; 
+}
+
+.triangle{
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 270px; 
+    left: 6px; 
+}
+
+a.custo{
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 240px; 
+    left: 10px; 
+}
+
+.P1 {
+    margin-top: -900px;
+    margin-left: 150px;
+    font-size: 42px;
+}
+
+
+
+.area1 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-left: 200px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area1 h2 .arrow {
+    margin-left: 170px; 
+}
+
+.area2 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: -103px;
+    margin-left: 550px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area2 h2 .arrow {
+    margin-left: 116px;
+}
+
+
+.area3 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: -103px;
+    margin-left: 900px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area3 h2 .arrow {
+    margin-left: 100px; 
+}
+
+.area4 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area4 h2 .arrow {
+    margin-left: 150px; 
+}
+
+
+.area5 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: -99px;
+    margin-left: 550px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area5 h2 .arrow {
+    margin-left: 130px; 
+}
+
+
+.area6 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: -103px;
+    margin-left: 900px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area6 h2 .arrow {
+    margin-left: 70px; 
+}
+
+
+.area7 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: 12px;
+    margin-left: 200px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+
+.area7 h2 .arrow {
+    margin-left: 116px; 
+}
+
+.area8 {
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: -100px;
+    margin-left: 550px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.area8 h2 .arrow {
+    margin-left: 170px; 
+}
+
+.more{
+    text-decoration: none;
+    color: black; 
+    display: block;
+    text-align: center;
+    margin-top: -103px;
+    margin-left: 900px;
+    width: 300px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.background{
+    background-color:  #FFFBF7; 
+    margin-top: 100px;
+    width: auto; 
+    height: 400px; 
+  }
+
+.mobile{
+    margin-top: -400px;
+    margin-left: 270px;
+}
+
+.TEXT{
+    font-size: 25px;
+    margin-top: -400px;
+    margin-left: 750px;
+}
+.T1 p {
+    font-size: 20px;
+    color: black;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px; 
+}
+
+label {
+    font-size: 20px; 
+}
+
+input[type="email"] {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 250px;
+    height: 45px; 
+}
+
+button[type="submit"]{
+    background-color: #FF7E8B;
+    margin-top: -20px;
+    margin-left: 30px;
+    border: 2px solid #FFFBF7;
+    border-radius: 8px;
+    width: 150px;
+    height: 45px;
+}
+
+.T2 p{
+    font-size: 15px;
+    color: lightgray;
+}
+
+.playstore{
+    margin-left:750px;
+}
+
+.appstore{
+    margin-top: -45px;
+    margin-left: 900px;
+}
+
+.opt {
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.list{
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-left: 200px;
+    width: 1100px;
+    height: 30px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none; /* Remove underline from link */ color: #000;
+}
+.list1{
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 30px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}.list2{
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 30px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}.list3{
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 1100px;
+    height: 30px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.background1{
+    background-color:  #F8F8F8; 
+    margin-top: 50px;
+    width: auto; 
+    height: 510px; 
+}
+
+.foot1 h1{
+    font-size: 45px;
+    margin-top: -500px;
+    margin-left: 200px;
+}
+
+.foot1 p{
+    margin-left: 200px;
+}
+
+.foot1 a{
+    color: gray;
+}
+
+.foot2 p{
+    margin-top: -275px;
+    margin-left: 400px;
+}
+.foot3 p{
+    margin-left: 400px;
+    color: gray;
+}
+
+.foot4 p{
+    margin-top: -310px;
+    margin-left: 650px;
+}
+
+.foot5 p{
+    margin-left: 650px;
+    color: gray;
+}
+
+.foot6{
+    margin-top: -103px;
+    margin-left: 900px;
+}
+
+.foot7 p{
+    margin-left: 900px;
+    color: gray;
+}
+
+.dropdown{
+    margin-top: -200px;
+    margin-left: 1000px;
+}
+
+.dropdown1{
+    margin-top: -19px;
+    margin-left: 1200px;
+}
+
+.foot8{
+    margin-top: 43px;
+    margin-left: 1100px;
+}
+
+.play{
+    margin-top: 130px;
+    margin-left:1100px;
+}
+
+.app{
+    margin-top: -100px;
+    margin-left:1100px;    
+}
+
+.icon1{
+    margin-top: -100px;
+    margin-left: 1100px;
+}
+.icon2{
+    margin-top: -25px;
+    margin-left: 1130px;
+}
+.icon3{
+    margin-top: -26px;
+    margin-left: 1160px;
+}
+.icon4{
+    margin-top: -26px;
+    margin-left: 1190px;
+}
+.icon5{
+    margin-top: -26px;
+    margin-left: 1220px;
+}
+
+.line{
+    margin-left: 200px;
+    width: 1200px; 
+    height: 2px; 
+    background-color: lightgray; 
+    margin-top: 280px; 
+}
+.end{
+    margin-left: 200px;
+    color: gray; 
+}
