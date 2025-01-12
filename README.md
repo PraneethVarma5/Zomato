@@ -28,7 +28,7 @@ To view this project:
 
 1. Clone the repository: `https://github.com/PraneethVarma5/Zomato.git`
 2. Open `index.html` in your web browser to view the site.
-3.You can directly open this link 
+3.You can directly open this link  `https://praneethvarma5.github.io/Zomato/`
 ## License
 
 This project is for educational purposes only. All rights to the original Zomato website belong to Zomato.
